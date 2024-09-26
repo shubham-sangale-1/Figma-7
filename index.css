@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://s3-alpha-sig.figma.com/img/e4e9/4bcd/6013879f33e24c0450bcde15d215f8ae?Expires=1728259200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YLDvB8QQzl8bqKe9IIu6dmCHhQIWwuPaS08PWF-6XA1VF3CiFaM93tN69Z47qlR0hrMMcxuZzXilkyGXxIm1Z1-iiYVvnUYCIDv6uloHdh1OcGQS5qUAU~1hWLtbkyClLvtpnN404PAenBCwZSqwZaetJ3jqP4-qBGX7ZlyXH~lR7exquKPSeyRmAaPfTPdVUHofY~hfvjVP0XauTs1RaE71suphnt5TTqBjj40gz977SpKIpvNwXfCAQ6pRB97BoZV0qQ4vP087VzAgSqh8-yNJ2d0wkhIAQcQJjVoal164sWr1Xu~gCb5-eI~z68T52DrZHOJ~ltmk3GaCC3M5pg__");
+    background-size: cover;
+}
+#parent-nav{
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+}
+#parent-nav div ul li img{
+    margin-top: -10px;
+}
+#parent-nav div ul{
+    margin-top: 28px;
+    display: flex;
+    list-style: none;
+}
+#parent-nav div ul li a, header div ul li button{
+    text-decoration: none;
+    color: black;
+    margin-left:30px;
+}
+#parent-nav div ul li button{
+    padding: 8px 18px;
+    margin-top: -10px;
+    border-radius: 18px;
+}
